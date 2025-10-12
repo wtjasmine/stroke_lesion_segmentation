@@ -1,8 +1,7 @@
 # 🧠 Stroke Lesion Segmentation from DWI Scans
 
-Automated segmentation of ischemic stroke lesions from diffusion-weighted MRI using both **machine learning (Random Forest, XGBoost)** and **deep learning (EfficientNet-B2 U-Net)** approaches.
+This framework performs automated ischemic stroke lesion segmentation on diffusion-weighted MRI using a hybrid approach that combines handcrafted feature-based machine learning (Random Forest and XGBoost) and deep learning (EfficientNet-B2 U-Net) approaches. The preprocessing pipeline includes an intensity standardization step, designed to reduce variability in image intensities across different scanners and centers, enabling more consistent and reproducible lesion segmentation.
 
-This work supports consistent and reproducible lesion quantification across multicenter data.
 
 ---
 
