@@ -8,7 +8,11 @@ This work supports consistent and reproducible lesion quantification across mult
 
 ## 📂 Repository Overview
 stroke_lesion_segmentation/
+
 ├── data_preprocessing/ # Intensity standardization
+
 ├── feature_extraction/ # Handcrafted convolutional filters
+
 ├── models/ # Random Forest, XGBoost, EfficientNet-B2 U-Net training
+
 └── README.md
