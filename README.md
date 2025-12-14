@@ -15,3 +15,11 @@ stroke_lesion_segmentation/
 ├── models/ # Random Forest, XGBoost, EfficientNet-B2 U-Net training
 
 └── README.md
+
+
+
+**Intellectual Property Notice**  
+© 2024–2025 Universiti Teknologi Malaysia (UTM).  
+This repository is protected under the Malaysia Copyright Act 1987  
+(Copyright Notification No. CRLY2025J10766).  
+All rights reserved.
