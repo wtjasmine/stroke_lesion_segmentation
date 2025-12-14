@@ -26,7 +26,7 @@ stroke_lesion_segmentation/
 
 ---
 **Intellectual Property Notice**  
-© 2024–2025 Universiti Teknologi Malaysia (UTM).  
+© Universiti Teknologi Malaysia (UTM).  
 This repository is protected under the Malaysia Copyright Act 1987  
 (Copyright Notification No. CRLY2025J10766).  
 All rights reserved.
