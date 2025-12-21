@@ -5,7 +5,7 @@ This script defines handcrafted feature extraction filters for
 stroke lesion segmentation on diffusion-weighted MRI (DWI) images.
 
 Author: Jasmine Wang Thye Wei
-Affiliation: Universiti Teknologi Malaysia / Nanyang Technological University
+Affiliation: Universiti Teknologi Malaysia
 Date: 2025-10-12
 """
 
@@ -91,5 +91,6 @@ def extract_features(image):
                     num += 1
 
     df['Variance'] = nd.generic_filter(image, np.var, size=3).reshape(-1)
+
 
     return df
