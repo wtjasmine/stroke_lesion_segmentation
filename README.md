@@ -6,6 +6,20 @@ This framework performs automated ischemic stroke lesion segmentation on diffusi
 ## 🧪 Preprocessing: Intensity Standardization
 <img width="2003" height="1134" alt="image" src="https://github.com/user-attachments/assets/5c3b5d44-0ccd-47c5-86f0-6891b725a24e" />
 
+**Figure 1. Effect of intensity standardization on diffusion-weighted MRI.**  
+Top: voxel intensity distributions across subjects before (left) and after (right) standardization, showing improved alignment of intensity profiles.  
+Bottom: representative axial DWI slices from two datasets before and after standardization.  
+The standardization step reduces inter-scanner and inter-subject intensity variability while preserving anatomical and lesion contrast.
+
+
+## 🧠 Segmentation Framework & Outputs
+<img width="938" height="1015" alt="image" src="https://github.com/user-attachments/assets/5846a65a-e495-4d5f-b57b-75d4857bc633" />
+
+**Figure 2. Example stroke lesion segmentation results.**  
+Representative diffusion-weighted MRI slices (top rows) and corresponding lesion masks (bottom rows).  
+Columns illustrate different anatomical locations and lesion characteristics.  
+The framework captures both large territorial infarcts and small focal lesions, demonstrating robustness across heterogeneous stroke presentations.
+
 
 ---
 
@@ -21,7 +35,11 @@ stroke_lesion_segmentation/
 └── README.md
 
 
+## 📌 Notes on Reproducibility
 
+- All experiments are conducted on 2D axial DWI slices extracted from 3D volumes.
+- Subject-level data splitting is used to avoid data leakage between training and testing sets.
+- Evaluation is performed using Dice similarity coefficient and related overlap metrics.
 
 
 
