@@ -3,6 +3,10 @@
 This framework performs automated ischemic stroke lesion segmentation on diffusion-weighted MRI using a hybrid approach that combines handcrafted feature-based machine learning (Random Forest and XGBoost) and deep learning (EfficientNet-B2 U-Net) approaches. The preprocessing pipeline includes an intensity standardization step, designed to reduce variability in image intensities across different scanners and centers, enabling more consistent and reproducible lesion segmentation.
 
 
+## 🧪 Preprocessing: Intensity Standardization
+<img width="2003" height="1134" alt="image" src="https://github.com/user-attachments/assets/5c3b5d44-0ccd-47c5-86f0-6891b725a24e" />
+
+
 ---
 
 ## 📂 Repository Overview
