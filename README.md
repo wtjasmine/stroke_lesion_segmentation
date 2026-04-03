@@ -14,7 +14,8 @@ The standardization step reduces inter-scanner and inter-subject intensity varia
 
 ---
 ## 🧠 Segmentation Framework & Outputs
-<img width="949" height="1097" alt="image" src="https://github.com/user-attachments/assets/f595fa73-ed57-4199-b868-47480ac27c4d" />
+<img width="1919" height="2426" alt="Figure 5" src="https://github.com/user-attachments/assets/43739012-9729-44dd-bb9a-314e80ea0890" />
+
 
 
 **Figure 2. Example stroke lesion segmentation results.**  
